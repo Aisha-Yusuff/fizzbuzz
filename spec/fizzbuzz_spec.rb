@@ -10,3 +10,10 @@ describe 'fizzbuzz' do
         expect(fizzbuzz(5)).to eq 'buzz'
     end 
 end 
+describe 'fizzbuzz' do
+    it "returns 'fizz' when passed a multiple of 3" do
+        expect(fizzbuzz(9)).to eq 'fizz'
+        expect(fizzbuzz(33)).to eq 'fizz'
+        expect(fizzbuzz(699)).to eq 'fizz'
+    end
+end
