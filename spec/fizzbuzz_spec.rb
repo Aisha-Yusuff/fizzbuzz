@@ -26,12 +26,10 @@ describe 'fizzbuzz' do
 end
 end 
 
-
-=begin describe 'fizzbuzz' do 
+describe 'fizzbuzz' do 
     it "returns 'buzz' when passed a multiple of 5" do
         expect(fizzbuzz(10)).to eq 'buzz'
         expect(fizzbuzz(50)).to eq 'buzz'
         expect(fizzbuzz(380)).to eq 'buzz'
     end 
 end 
-=end
