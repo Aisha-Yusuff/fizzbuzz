@@ -17,3 +17,21 @@ describe 'fizzbuzz' do
         expect(fizzbuzz(699)).to eq 'fizz'
     end
 end
+
+describe 'fizzbuzz' do 
+    it 'return the number passed when not a multiple of 3 or/and 5' do
+        expect(fizzbuzz(8)).to eq 8
+        expect(fizzbuzz(17)).to eq 17
+        expect(fizzbuzz(304)).to eq 304 
+end
+end 
+
+
+=begin describe 'fizzbuzz' do 
+    it "returns 'buzz' when passed a multiple of 5" do
+        expect(fizzbuzz(10)).to eq 'buzz'
+        expect(fizzbuzz(50)).to eq 'buzz'
+        expect(fizzbuzz(380)).to eq 'buzz'
+    end 
+end 
+=end
